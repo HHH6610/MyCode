@@ -1,4 +1,5 @@
-- name: Lint with pylint
+yml
+    - name: Lint with pylint
       run: |
         pylint --exit-zero my_source.py
     - name: Test with pytest
